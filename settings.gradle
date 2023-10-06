@@ -1,0 +1,4 @@
+project(':build.gradle').projectDir = new File(rootDir, 'implementation/project/build.gradle')
+include ':build.gradle'
+project(':build.gradle').projectDir = new File(rootDir, 'implementation/project/build.gradle')
+include ':build.gradle'

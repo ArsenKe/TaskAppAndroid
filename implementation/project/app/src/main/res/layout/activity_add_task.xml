@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AddTaskView"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:id="@+id/title_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:width="150dp"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/description_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_description_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_description_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:width="150dp"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/date_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/editBtn_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:text="Select Date"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            style="?android:spinnerStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/editBtn_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:text="Select Time"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            style="?android:spinnerStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/status_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/choose_statusSpinner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:minWidth="140dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_notification_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/choose_notificationSpinner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:minWidth="140dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notify_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_notify_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notify before: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/choose_notifySpinner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:minWidth="140dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/color_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notify_layout_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_color_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/choose_colorSpinner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:minWidth="140dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/priority_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/color_layout_id"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/priority_layout_id"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/create_taskBtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/location_layout_id"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/doneEdit_taskBtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/create_taskBtn_id"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8659e678-9f66-4bfc-af94-6189f40acaaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/adapters/StringAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/database/AppointmentsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/ToDoListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/src/main/res/layout/activity_to_do_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/src/main/res/layout/todo_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/models/tasks/CheckList.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/models/tasks/CheckList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/models/tasks/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/AddTaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/AddTaskView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/AppointmentFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/CheckListFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/SelectTaskTypeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/java/at/ac/univie/taskmanager/views/TaskFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/res/layout/activity_select_task_type.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/src/main/res/layout/fragment_task_fregment.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Jdy5OtjicHiMKhQuO1rVv0UTTi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8659e678-9f66-4bfc-af94-6189f40acaaf" name="Changes" comment="" />
+      <created>1672422074301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672422074301</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/edit_text_title_todo"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/edit_list_item_btn"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/ic_edit_task" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

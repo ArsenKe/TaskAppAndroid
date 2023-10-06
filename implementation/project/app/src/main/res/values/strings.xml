@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string-array name="statusTypes">
+        <item>NONE</item>
+        <item>PLANNED</item>
+        <item>IN_PROGRESS</item>
+        <item>TODO</item>
+        <item>CANCELLED</item>
+        <item>DONE</item>
+    </string-array>
+    <string-array name="notificationType">
+        <item>NONE</item>
+        <item>EMAIL</item>
+        <item>POPUP</item>
+    </string-array>
+    <string-array name="notifyType">
+        <item>NONE</item>
+        <item>ONE_MIN</item>
+        <item>FIVE_MIN</item>
+        <item>TEN_MIN</item>
+        <item>THIRTY_MIN</item>
+        <item>ONE_HOUR</item>
+    </string-array>
+    <string-array name="colorType">
+        <item>WHITE</item>
+        <item>BLUE</item>
+        <item>RED</item>
+        <item>GREEN</item>
+    </string-array>
+    <string-array name="priorityType">
+        <item>NONE</item>
+        <item>HIGH</item>
+        <item>LOW</item>
+    </string-array>
+    <string-array name="taskTypes">
+        <item>Choose Task</item>
+        <item>Appointment</item>
+        <item>CheckList</item>
+        <item>CompositeTask</item>
+    </string-array>
+    <string-array name="taskTypesNoComposite">
+        <item>Choose Task</item>
+        <item>Appointment</item>
+<!--        <item>CheckList</item>-->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="select_task_title">Select Task Type</string>
+    <string name="location_label">"Location: "</string>
+    <string name="priority_label">"Priority: "</string>
+    <string name="location_hint">Location</string>
+</resources>

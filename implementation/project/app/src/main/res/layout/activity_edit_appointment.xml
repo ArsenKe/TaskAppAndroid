@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AddTaskView">
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_titleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_descriptionLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_appointment_titleLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        >
+
+        <TextView
+            android:id="@+id/edit_appointment_txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_appointment_editDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_priorityLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_descriptionLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+
+        <TextView
+            android:id="@+id/edit_appointment_txtPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/edit_appointment_editPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Priority"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_dateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_priorityLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:id="@+id/edit_appointment_editDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_locationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_dateLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_statusLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_locationLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Status"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_notificationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_statusLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Notification"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_notifyLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_notificationLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtNotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notify: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editNotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Notify"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_appointment_colorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_appointment_notifyLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/edit_appointment_txtColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:width="140dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edit_appointment_editColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Color"
+            android:width="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/edit_appointment_createAppointmentTaskBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_appointment_colorLayout"
+        android:layout_marginTop="70dp" />
+
+</RelativeLayout>
